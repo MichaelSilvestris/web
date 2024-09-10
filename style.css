@@ -1,0 +1,67 @@
+﻿body 
+{
+    margin: 1rem;
+    background-color: black;
+    color: darkgreen;
+}
+
+main
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(43,43,43);
+    padding: 0rem;
+    margin: 0rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.navbar li {
+    margin: 0 1rem;
+    display: flex; /* Używamy flexboxa w <li> */
+    align-items: center; /* Wyrównanie pionowe */
+    /*background-color: rgb(43, 43, 43);*/
+}
+
+.navbar a {
+    text-align: center;
+    padding: 0.5rem;
+    display: block;
+    color: antiquewhite;
+    font-size: 2rem;
+    height: 100%; /* Wypełnienie całej wysokości <li> */
+    width: 100%; /* Wypełnienie całej szerokości <li> */
+    box-sizing: border-box; /* Uwzględnienie paddingu */
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.navbar a:hover 
+{
+    background-color: rgb(54,54,54);
+}
+
+
+.button1 
+{
+    border: double;
+    color: aqua;
+    text-align: center;
+    font-size: 32px;
+    padding: 15px 32px;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
